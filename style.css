@@ -16,7 +16,7 @@ body {
 }
 
 .colors > div {
-  width: 19%;
+  width: 13%;
   border-radius: 2rem;
   padding: 3.5rem 0rem;
   display: inline-block;
@@ -43,7 +43,15 @@ body {
   background-color: #333333;
 }
 
-.dark, .purple {
+.red {
+  background-color: #670E10;
+}
+
+.blue {
+  background-color: #242F78;
+}
+
+.dark, .purple, .red, .blue {
     color: white;
 }
 
