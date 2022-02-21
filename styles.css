@@ -1,11 +1,125 @@
 body {
-    background-color: #14161a;
+  background-color: white;
+  margin: 0 10% 5rem;
+  text-align: center;
 }
 
 .colors {
-    border: 1px gray solid;
+  background-color: beige;
+  padding: 1rem 0rem;
+  border: 2px solid black;
+  font-family: "Roboto", sans-serif;
+}
+
+.color-container {
+  width: 100%;
+}
+
+.colors > div {
+  width: 19%;
+  border-radius: 2rem;
+  padding: 3.5rem 0rem;
+  display: inline-block;
+  align-self: center;
 }
 
 .light {
-    background-color: #d7d9c7;
+  background-color: #F9F6EE;
+}
+
+.gold {
+  background-color: #F5BD02;
+}
+
+.purple {
+  background-color: #6C3082;
+}
+
+.gray {
+  background-color: #DADADA;
+}
+
+.dark {
+  background-color: #333333;
+}
+
+.dark, .purple {
+    color: white;
+}
+
+.color-title,
+.color-hex {
+  text-align: center;
+  justify-self: center;
+}
+
+.font-container > div {
+  display: inline-block;
+  width: 45%;
+}
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.font-mono {
+  font-family: "Roboto Mono", monospace;
+}
+
+.font-noto {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.font-lora {
+  font-family: "Lora", serif;
+}
+
+.font-josefine {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.font-label {
+  text-decoration: underline;
+  font-size: 28px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 60px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 38px;
+    font-family: "Roboto Mono", monospace;
+}
+
+h3 {
+    font-weight: 450;
+    font-size: 32;
+    font-family: "Roboto Mono", monospace;
+}
+
+p {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+li {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.style-container > div {
+    display: inline-block;
+    width: 45%;
 }

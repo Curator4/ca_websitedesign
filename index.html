@@ -2,88 +2,113 @@
 <html>
   <head>
     <title>Website Design Doc</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div>
       <h1>Website Style Guide</h1>
     </div>
-    <div class="colors">
+    <div class="color-container">
       <h2>Colors</h2>
-      <div class="dark">
-        <p class="color title"></p>
-        <p class="color hex"></p>
-      </div>
-      <div class="light">
-        <p class="color title">Light</p>
-        <p class="color hex">#d7d9c7</p>
-      </div>
-      <div class="gray">
-        <p class="color title"></p>
-        <p class="color hex"></p>
-      </div>
-      <div class="purple">
-        <p class="color title"></p>
-        <p class="color hex"></p>
-      </div>
-      <div class="gold">
-        <p class="color title"></p>
-        <p class="color hex"></p>
+      <div class="colors">
+        <div class="dark">
+          <p class="color-title">Dark Charcoal</p>
+          <p class="color-hex">#333333</p>
+        </div>
+        <div class="light">
+          <p class="color-title">Bone White</p>
+          <p class="color-hex">#F9F6EE</p>
+        </div>
+        <div class="gray">
+          <p class="color-title">Gentle Gray</p>
+          <p class="color-hex">#DADADA</p>
+        </div>
+        <div class="purple">
+          <p class="color-title">Eminence</p>
+          <p class="color-hex">#6C3082</p>
+        </div>
+        <div class="gold">
+          <p class="color-title">Royal Gold</p>
+          <p class="color-hex">#F5BD02</p>
+        </div>
       </div>
     </div>
-    <div class="fonts">
+    <div class="font-container">
       <h2>Fonts</h2>
-      <div class="font">
-        <h3>Font1</h3>
-        <p class="font-normal"></p>
-        <p class="font-bold"></p>
-        <p class="font-italic"></p>
+      <div class="font-roboto">
+        <h3 class="font-label">Roboto</h3>
+        <p class="font-normal">I disliked that voice so much btw of.</p>
+        <p class="font-bold">I disliked that voice so much btw of.</p>
+        <p class="font-italic">I disliked that voice so much btw of.</p>
       </div>
-      <div class="font">
-        <h3>Font1</h3>
-        <p class="font-normal"></p>
-        <p class="font-bold"></p>
-        <p class="font-italic"></p>
+      <div class="font-mono">
+        <h3 class="font-label">Roboto Mono</h3>
+        <p class="font-normal">I disliked that voice so much btw of.</p>
+        <p class="font-bold">I disliked that voice so much btw of.</p>
+        <p class="font-italic">I disliked that voice so much btw of.</p>
       </div>
-      <div class="font">
-        <h3>Font1</h3>
-        <p class="font-normal"></p>
-        <p class="font-bold"></p>
-        <p class="font-italic"></p>
+      <div class="font-open">
+        <h3 class="font-label">Open Sans</h3>
+        <p class="font-normal">I disliked that voice so much btw of.</p>
+        <p class="font-bold">I disliked that voice so much btw of.</p>
+        <p class="font-italic">I disliked that voice so much btw of.</p>
+      </div>
+      <div class="font-noto">
+        <h3 class="font-label">Noto Sans</h3>
+        <p class="font-normal">I disliked that voice so much btw of.</p>
+        <p class="font-bold">I disliked that voice so much btw of.</p>
+        <p class="font-italic">I disliked that voice so much btw of.</p>
+      </div>
+      <div class="font-laro">
+        <h3 class="font-label">Laro</h3>
+        <p class="font-normal">I disliked that voice so much btw of.</p>
+        <p class="font-bold">I disliked that voice so much btw of.</p>
+        <p class="font-italic">I disliked that voice so much btw of.</p>
+      </div>
+      <div class="font-josefine">
+        <h3 class="font-label">Josefin Sans</h3>
+        <p class="font-normal">I disliked that voice so much btw of.</p>
+        <p class="font-bold">I disliked that voice so much btw of.</p>
+        <p class="font-italic">I disliked that voice so much btw of.</p>
       </div>
     </div>
-    <div class="text styles">
+    <div class="style-container">
       <h2>Text Styles</h2>
-      <div class="text style">
-        <h1>H1: Main page heading</h1>
+      <div class="text-style">
+        <h3>H1: Main page heading</h3>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>font-weight: 700;</li>
+          <li>font-size: 60px;</li>
+          <li>font-family: "Noto Sans", sans-serif;</li>
         </ul>
       </div>
-      <div class="text style">
-        <h1>H2: Subheading</h1>
+      <div class="text-style">
+        <h3>H2: Subheading</h3>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>font-weight: 500;</li>
+          <li>font-size: 38px;</li>
+          <li>font-family: "Roboto Mono", monospace;</li>
         </ul>
       </div>
-      <div class="text style">
-        <h1>H3: Subsubheading</h1>
+      <div class="text-style">
+        <h3>H3: Subsubheading</h3>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>font-weight: 450;</li>
+          <li>font-size: 32;</li>
+          <li>font-family: "Roboto Mono", monospace;</li>
         </ul>
       </div>
-      <div class="text style">
-        <h1>P: Paragraph</h1>
+      <div class="text-style">
+        <h3>P: Paragraph</h3>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>font-weight: 400;</li>
+          <li>font-size: 22px;</li>
+          <li>font-family: "Roboto Mono", monospace;</li>
         </ul>
       </div>
     </div>
